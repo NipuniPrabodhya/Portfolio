@@ -3,13 +3,13 @@ function Experience() {
     {
       title: 'Autonomation Engineer (Intern)',
       company: 'MAS Intimates Central Autonomation - Rathmalana, Sri Lanka',
-      date: 'September 2025 - June 2026',
+      date: 'September 2025 - June 2026 (9 Months)',
       summary: 'Contributed to the development and deployment of Industrial IoT systems, focusing on machine monitoring and production optimization using Arduino and ESP32. Assisted in machine vision solutions and designed electrical schematics for automation control panels.'
     },
     {
       title: 'Mechatronics Engineer (Intern)',
       company: 'KD Rise Electrical Motors (Pvt) Ltd, Kaduwela, Sri Lanka',
-      date: 'June 2024 - January 2025',
+      date: 'June 2024 - January 2025 (7 Months)',
       summary: 'Developed an electric scooter HMI dashboard and RFID-based ignition systems. Modeled modular automation applications in SolidWorks and performed testing and analysis on lithium-ion batteries.'
     }
   ];
