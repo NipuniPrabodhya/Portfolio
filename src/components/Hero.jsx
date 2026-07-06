@@ -51,7 +51,7 @@ function Hero() {
                 filter: 'blur(12px)'
               }}></div>
               <img 
-                src="/profile.png" 
+                src={`${import.meta.env.BASE_URL}profile.png`}
                 alt="Nipuni Prabodhya" 
                 style={{ 
                   width: '280px', 
