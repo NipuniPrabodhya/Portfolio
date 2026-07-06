@@ -19,9 +19,16 @@ function App() {
       <Experience />
       <Education />
       <Contact />
-      <footer style={{ textAlign: 'center', padding: '2rem 0', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
+      <footer style={{ 
+        textAlign: 'center', 
+        padding: '3rem 0', 
+        backgroundColor: 'var(--bg-secondary)', 
+        color: '#94A3B8', 
+        fontSize: '0.95rem',
+        borderTop: '1px solid rgba(255,255,255,0.08)'
+      }}>
         <p>
-          Designed &amp; built by <span style={{ color: 'var(--accent)' }}>Nipuni Prabodhya</span> &copy; {new Date().getFullYear()}
+          Designed &amp; built by <span style={{ color: 'var(--accent)', fontWeight: 600 }}>Nipuni Prabodhya</span> &copy; {new Date().getFullYear()}
         </p>
       </footer>
     </>

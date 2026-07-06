@@ -23,10 +23,9 @@ function Navbar() {
       justifyContent: 'center',
       zIndex: 1000,
       transition: 'var(--transition)',
-      background: scrolled ? 'var(--bg-card)' : 'transparent',
-      backdropFilter: scrolled ? 'blur(12px)' : 'none',
-      borderBottom: scrolled ? '1px solid var(--border)' : '1px solid transparent',
-      boxShadow: scrolled ? 'var(--shadow-sm)' : 'none'
+      background: 'var(--bg-secondary)', // Always Deep Navy
+      borderBottom: '1px solid rgba(255,255,255,0.08)',
+      boxShadow: 'var(--shadow-sm)'
     }}>
       <div className="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <ul style={{ display: 'flex', gap: '2.5rem', margin: 0, padding: 0, listStyle: 'none' }}>
@@ -37,12 +36,12 @@ function Navbar() {
                 style={{
                   fontSize: '1.25rem',
                   fontWeight: 500,
-                  color: 'var(--text-secondary)',
+                  color: '#94A3B8', // Light slate gray for readability on Deep Navy
                   textDecoration: 'none',
                   transition: 'var(--transition)',
                 }}
                 onMouseOver={(e) => e.target.style.color = 'var(--accent)'}
-                onMouseOut={(e) => e.target.style.color = 'var(--text-secondary)'}
+                onMouseOut={(e) => e.target.style.color = '#94A3B8'}
               >
                 {item}
               </a>

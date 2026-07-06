@@ -25,7 +25,7 @@ function About() {
             { icon: '📚', title: 'Continuous Learning' },
             { icon: '📋', title: 'Project Coordination & Planning' }
           ].map(skill => (
-            <div key={skill.title} style={{ padding: '1.5rem', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius-md)', border: '1px solid var(--border)' }}>
+            <div key={skill.title} style={{ padding: '1.5rem', background: 'var(--bg-primary)', borderRadius: 'var(--radius-md)', border: '1px solid var(--border)' }}>
               <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>{skill.icon}</div>
               <h4 style={{ color: 'var(--text-secondary)', fontSize: '1rem' }}>{skill.title}</h4>
             </div>
